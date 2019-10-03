@@ -1,0 +1,4 @@
+#!/bin/sh
+cd ..
+
+exec python3 abi_compare/abi_compare.py $@
